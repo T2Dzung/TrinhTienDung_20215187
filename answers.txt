@@ -1,4 +1,0 @@
-6.1
-- If users choose "Cancel", computer will return "You've chosen: No".
-- To change to "Yes" and "No" option, we can change type of showConfirmDialog to JOptionPane.YES_NO_OPTION.
-- To change to "I do" and "I don't" option, we can use JOptionPane.showOptionDialog

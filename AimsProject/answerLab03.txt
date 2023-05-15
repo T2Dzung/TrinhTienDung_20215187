@@ -1,0 +1,6 @@
+3.
+- After the call of swap(jungleDVD, cinderellaDVD) why does the title of these two objects still remain?
+-> When the class calls the swap() method with the jungleDVD and cinderellaDVD variables as arguments, two new object variables, o1 and o2, are created. o1 point to memory location of jungleDVD and o2 point to memory location of cinderellaDVD. The values of o1 and o2 are swapped, but because the values are copies of the jungleDVD and cinderellaDVD memory locations, there is no change to the jungleDVD and cinderellaDVD titles.
+
+- After the call of changeTitle(jungleDVD, cinderellaDVD.getTitle()) why is the title of the JungleDVD changed?
+-> The second line creates a reference that points to memory location of jungleDVD so the title value of the object at memory location of jungleDVD is changed to title of cinderellaDVD. The third line creates a new object (with title value is the old title of jungleDVD) and the dvd variable now point to memory location of that object, but dvd is a copy of the jungleDVD so the title of jungleDVD is still "Cinderella".

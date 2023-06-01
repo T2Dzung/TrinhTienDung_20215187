@@ -1,5 +1,5 @@
 package hust.soict.globalict.test.store;
-import hust.soict.globalict.aims.disc.DigitalVideoDisc;
+import hust.soict.globalict.aims.media.DigitalVideoDisc;
 import hust.soict.globalict.aims.store.Store;
 
 public class StoreTest {
@@ -9,16 +9,16 @@ public class StoreTest {
 		
 		DigitalVideoDisc dvd1 = new DigitalVideoDisc("The Lion King",
 				"Animation", "Roger Allers", 87, 19.95f);
-		store.addDVD(dvd1);
+		store.addMedia(dvd1);
 		
 		DigitalVideoDisc dvd2 = new DigitalVideoDisc("Star Wars",
 				"Science Fiction", "George Lucas", 87, 24.95f);
-		store.addDVD(dvd2);
+		store.addMedia(dvd2);
 		
 		DigitalVideoDisc dvd3 = new DigitalVideoDisc("Aladin",
 				"Animation", 18.99f);
-		store.addDVD(dvd3);
+		store.addMedia(dvd3);
 		
-		store.removeDVD(dvd2);
+		store.removeMedia(dvd2);
 	}
 }

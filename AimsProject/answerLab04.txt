@@ -1,0 +1,11 @@
++ What class should implement the Comparable interface?
+- Media class.
+
++ In those classes, how should you implement the compareTo()method be to reflect the ordering that we want?
+-  The compareTo() method needs to return -1, 0, 1 if the current object is less than, equal to, or greater than the specified object, respectively.
+
++ Can we have two ordering rules of the item (by title then cost and by cost then title) if we use this Comparable interface approach?
+- No we can't.
+
++ Suppose the DVDs has a different ordering rule from the other media types, that is by title, then decreasing length, then cost. How would you modify your code to allow this?
+- We can override the compareTo() method in DVD class.

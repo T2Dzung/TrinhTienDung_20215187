@@ -30,4 +30,8 @@ public class Store {
 			System.out.println(i + ". " + itemStored.get(i-1).toString());
 		}
 	}
+	
+	public ArrayList<Media> getItemStored() {
+		return itemStored;
+	}
 }
